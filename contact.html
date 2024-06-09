@@ -13,12 +13,25 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <h1>Contact</h1>
-    <p>1. Name</p>
-    <p>2. Email Address</p>
-    <p>3. Reason for contact drop down menu</p>
-    <p>Textarea for open comment</p>
-    <p>Submit Button</p>
-    
+    <h1>Contact Us</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="reason">Reason for Contact</label>
+        <select id="reason" name="reason" required>
+            <option value="hi">Saying Hi</option>
+            <option value="learn">Learn more about AI</option>
+            <option value="interview">Interested in talking to the Author</option>
+        </select>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
