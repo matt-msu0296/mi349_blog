@@ -28,10 +28,6 @@ header {
     top: 0;
 }
 
-section {
-    display: flex;
-}
-
 article {
     background: #ccc;
     padding: 40px;
@@ -63,6 +59,7 @@ h1 {
 
 h2 {
     font-size: 2em;
+    margin: 0;
 }
 
 h3 {
@@ -75,6 +72,11 @@ p {
 
 #blog {
     border-top: 1px dotted #ccc;
+    display: flex;
+}
+
+.blog-section {
+    text-align: left;
 }
 
 .about-me {
